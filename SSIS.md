@@ -7,5 +7,6 @@ Diff Methods
         ii) sqlserver table ( right click on control flow go to pkg config and add details)--> dbo.SSISConfigurations
 
         Environment Variables - these variables hold value which env .Each time the package runs it reads the env variable and point to the required Sql server table or XML.
+        SSIS Catalog repoistory 
 
       
