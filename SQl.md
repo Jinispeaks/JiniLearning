@@ -114,3 +114,12 @@ CREATE TABLE dbo.InMemoryExample
         WITH
             (MEMORY_OPTIMIZED = ON,
             DURABILITY = SCHEMA_AND_DATA)
+## Constraint
+check constraint
+            CREATE TABLE Persons (
+    ID int NOT NULL,
+    LastName varchar(255) NOT NULL,
+    FirstName varchar(255),
+    Age int,
+    CHECK (Age>=18)
+);
