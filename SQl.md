@@ -24,3 +24,11 @@
 9. ORDER BY
       And after dropping the duplicates and having the final table, the engine can finally start the ranking.
 10. LIMIT or TOP
+**##Predicate Logic**
+ALL, ANY, BETWEEN, IN, LIKE, OR, SOME
+
+## SET operator
+union
+union all (duplicates)
+intersect (common)
+except (data present in 1 st query not in second)
