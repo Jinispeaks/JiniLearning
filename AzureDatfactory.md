@@ -1,3 +1,16 @@
+# Azure Cloud Data engineer
+ Azure synapse pipelines
+ Azure data factory
+ SSIS
+Azure Sql Database
+Key vault
+logic Apps
+Azure Data lake gen2
+Blob storage 
+Design the framework to move SSIS & SQL code to Azure cloud.
+Deployed changes to various environments using Azure Dev Ops CICD
+
+
 what is cloud?
 managing services through intranet 
 
