@@ -68,7 +68,7 @@ iii)Manage Window ( to view data pipeline)
   ### Encryption 
 
 Azure offers several mechanisms to encrypt data in transit and at rest. 
-For data at rest, Azure Storage provides Storage Service Encryption (SSE) that automatically encrypts data before persisting it to Azure Storage and decrypts it before retrieval.
+For data at rest, #Azure Storage provides Storage Service Encryption (SSE) that automatically encrypts data before persisting it to Azure Storage and decrypts it before retrieval.
 If you need to encrypt data in use, you can consider using Always Encrypted, which is a feature of Azure SQL Database that allows you to encrypt sensitive data within an application.
 However, if you don't have data in Azure SQL, you can use Azure Key Vault to store and manage cryptographic keys used for encryption and decryption in your application.
 Below is an example to use azure key vault to encrypt your data.
