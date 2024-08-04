@@ -123,3 +123,7 @@ check constraint
     Age int,
     CHECK (Age>=18)
 );
+## rownumber vs dense_rank vs rank
+
+![image](https://github.com/user-attachments/assets/d1c3fcf9-8daa-4c9e-bbb6-def29afd4e5d)
+
