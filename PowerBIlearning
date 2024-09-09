@@ -1,4 +1,3 @@
-
 ### Best Practices for Managing Large Datasets
 Power BI offers three primary data connection modes: Import, DirectQuery, and Composite. Each mode has distinct advantages and use cases, making it essential to choose the right approach based on your specific needs for data size, real-time updates, and performance requirements.
 
