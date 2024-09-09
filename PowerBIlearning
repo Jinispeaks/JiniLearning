@@ -1,5 +1,5 @@
 
-## Best Practices for Managing Large Datasets
+### Best Practices for Managing Large Datasets
 Power BI offers three primary data connection modes: Import, DirectQuery, and Composite. Each mode has distinct advantages and use cases, making it essential to choose the right approach based on your specific needs for data size, real-time updates, and performance requirements.
 
 Import Mode: In Import mode, data is imported into Power BI’s memory, enabling quick interactions and visualizations. This mode is highly efficient for smaller datasets, where the entirety of the data can be loaded into Power BI without impacting performance. Benefits of Import mode include fast report rendering since the data is readily available in Power BI’s in-memory storage. However, import mode can become less feasible for larger datasets due to memory constraints and potentially lengthy data refresh times, which could lead to stale data if not managed carefully.
