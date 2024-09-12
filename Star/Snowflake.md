@@ -15,7 +15,7 @@ Data Redundancy	Lower, due to normalization
 Lower, due to reduced redundancy
 
 
-### Aspect	Kimball Methodology
+Kimball Methodology
 Approach	Bottom-up
 Data Modeling	Dimensional modeling (star/snowflake schemas)
 Implementation	Start with data marts and integrate them
