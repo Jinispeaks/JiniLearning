@@ -88,7 +88,8 @@ Ongoing: Regularly maintain and update the Data Vault to accommodate changes in 
 In summary, Data Vault is a methodology for data warehousing, not a tool. Implementing a Data Vault architecture involves using various tools for ETL, data warehousing, data modeling, data integration, and reporting to achieve the methodology's objectives.
 
 
-What Are Slowly Changing Dimensions (SCD)? SCDs are a technique used in data warehouses to manage historical data and changes in dimensions (like customer details) over time. There are different ways to handle these changes, called Types 1, 2, and 3.
+### What Are Slowly Changing Dimensions (SCD)? 
+SCDs are a technique used in data warehouses to manage historical data and changes in dimensions (like customer details) over time. There are different ways to handle these changes, called Types 1, 2, and 3.
 
 ➡️SCD Type 1 – Overwrite the Old Data ☑️Simply updates the existing record with new information ☑️No historical tracking
 
