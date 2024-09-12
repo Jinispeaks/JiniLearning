@@ -41,3 +41,20 @@ Power BI provides advanced tools like Performance Analyzer and DAX Studio to hel
 
 4. Utilize Power BI Premium
 Power BI Premium offers enhanced performance capabilities for organizations dealing with massive datasets, including dedicated cloud resources and more extensive data storage limits. Premium also supports larger dataset sizes and more frequent data refreshments, making it suitable for intensive big-data analytics.
+
+
+1.Choose the right mode.
+For larger data sets -Directquery mode is used.
+2. Best Data Modelling Practises 
+Remove Unwnated columns,tables
+Star Schema
+Avoid many to many -instead use a bridge table
+Avoid circular relationship
+Use filters/aggrgates
+Schedule refresh during off-peak hours
+Incremental refresh policies
+
+Visualization
+Limit Visuals
+Avoid using both Direct & Import Modes
+Performance Analyzer
