@@ -1,1 +1,16 @@
 
+Amazon RedShift 
+fully managed, columnar cloud data warehouse.
+It uses MPP massively parallel processing
+
+### Amazon Kinesis
+For streaming of data like click on mobile app where data comes every second .
+It can be populated to amazon kinesis firehose o kinesis datastreams 
+If it is simple then we need to populate to kinesis firehose.
+to do some analystics before loading to storage we can use kinesis analytics.
+
+Kinesis Data Firehose is ideal for ingesting data for storage.
+It can also transform data using an AWS Lambda function before storing it.
+Kinesis Data Firehose streams can only be associated with a single consumer, and the target must be Amazon S3, Amazon Redshift, Amazon OpenSearch Service, or Splunk.
+Messaging services like Amazon Simple Queue Service (Amazon SQS) or Amazon Simple Notification Service (Amazon SNS) would be better suited for processing and responding to individual messages than processing a stream of data.
+Kinesis Data Firehose has built-in retries. Amazon Kinesis Data Streams does not, but order is not guaranteed with Kinesis Data Firehose.
