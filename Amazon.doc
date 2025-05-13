@@ -14,3 +14,5 @@ It can also transform data using an AWS Lambda function before storing it.
 Kinesis Data Firehose streams can only be associated with a single consumer, and the target must be Amazon S3, Amazon Redshift, Amazon OpenSearch Service, or Splunk.
 Messaging services like Amazon Simple Queue Service (Amazon SQS) or Amazon Simple Notification Service (Amazon SNS) would be better suited for processing and responding to individual messages than processing a stream of data.
 Kinesis Data Firehose has built-in retries. Amazon Kinesis Data Streams does not, but order is not guaranteed with Kinesis Data Firehose.
+
+
