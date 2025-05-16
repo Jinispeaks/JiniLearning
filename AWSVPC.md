@@ -24,7 +24,8 @@ However, with a **VPC Endpoint**, AWS gives you a **direct private shortcut** to
 There are **two types of VPC Endpoints**:
 1. **Gateway Endpoint**: Used for AWS services like S3 or DynamoDB.
 2. **Interface Endpoint**: Creates a **network interface** (like a private doorway) in your VPC.
-
+** Gateway Endpoints: Best for high-throughput, cost-effective access to S3 and DynamoDB. Simple to set up with no extra costs.
+Interface Endpoints: Necessary for broad AWS services, custom services, or third-party services via PrivateLink. More complex, but versatile.**
 ---
 
 ### **3. What is an Interface (ENI) in Layman Terms?**
