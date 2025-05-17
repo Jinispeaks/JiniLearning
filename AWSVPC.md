@@ -84,5 +84,17 @@ Let’s say you have a web application running in AWS, and it needs to store fil
    - Once set up, your resources in the VPC can directly communicate with S3, DynamoDB, or other custom services.
 
 ---
+Redshift Spectrum:
 
-Let me know if you need further clarifications or analogies!
+Use this when you have large datasets in S3 and don't want to load them into Redshift. Ideal for data lake analytics.
+Redshift Federated Query:
+
+Use this for real-time access to live relational databases (RDS, Aurora) alongside Redshift. Perfect for hybrid queries.
+Redshift Query Editor:
+
+Use this for quick ad-hoc queries, testing, and debugging directly in the AWS Console.
+Redshift API:
+
+Use this for automating or integrating queries programmatically into workflows or applications (e.g., running SQL in AWS Lambda).
+
+
